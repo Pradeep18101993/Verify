@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* border: 1px solid black; */
+  filter: drop-shadow(2px 4px 24px grey);
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 103px;
+  padding-right: 60px;
+}
+.linkitem {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
